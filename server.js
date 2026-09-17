@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get("/about", (req, res) => {
     res.json({
-        name: "Tiri",
+        name: "Tripti",
         about: "I am building my backend development skills this month."
     });
 });
