@@ -23,7 +23,7 @@ app.get("/skills", (req, res) => {
 });
 app.post("/message", (req, res) => {
     res.json({
-        message: "Message receivedd!",
+        message: "Message received!",
         text: req.body.text
     });
 });
