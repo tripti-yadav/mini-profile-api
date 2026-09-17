@@ -16,8 +16,8 @@ app.get("/skills", (req, res) => {
             "JavaScript",
             "Node.js",
             "Express",
-            "Git",
-            "GitHub"
+            "GitHub",
+            "Git"
         ]
     });
 });
